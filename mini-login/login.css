@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  background-color: #f1f1f1;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 50px;
+}
+
+.main-container {
+  background-color: #ffffff;
+}
+
+/*
+.left-panel-container {
+  height: 460px;
+  width: 300px;
+  background-color: aqua;
+  border: 1px solid black;
+}
+*/
+
+.right-panel-container {
+  height: 700px;
+  width: 350px;
+
+  align-items: center;
+}
+
+.right-panel-box1 {
+  height: 370px;
+  width: 350px;
+  background-color: red;
+  border: 1px solid black;
+}
+
+.login-logo-container {
+  width: 350px;
+  display: flex;
+  justify-content: center;
+}
+.login-logo-container > img {
+  width: 80%;
+}
+
+.form-container {
+  width: 350px;
+  display: flex;
+  justify-content: center;
+}
+
+input[type="text"],
+input[type="password"] {
+  background-color: #f1f1f1;
+  border: 1px solid lightgray;
+  border-radius: 2px;
+  font-size: 12px;
+  margin-bottom: 7px;
+  padding: 10px 5px;
+  text-overflow: ellipsis;
+  width: 96%;
+}
+
+input[type="submit"] {
+  background-color: skyblue;
+  border-color: transparent;
+  border-radius: 5px;
+  color: white;
+  margin-top: 10px;
+  padding: 5px;
+  width: 100%;
+}
+
+.login-w-facebook-container {
+  text-align: center;
+}
+
+.right-panel-box2 {
+  margin-top: 10px;
+  height: 60px;
+  width: 350px;
+  background-color: yellow;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.right-panel-box2 > p {
+  text-align: center;
+}
+
+.right-panel-box3 {
+  margin-top: 10px;
+  padding-top: 10px;
+  height: 100px;
+  width: 350px;
+  background-color: green;
+  border: 1px solid black;
+}
+
+.right-panel-box3 > p {
+  text-align: center;
+}
+
+.right-panel-box3 > img {
+  width: 46%;
+  margin: 1%;
+}
+
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.footer > p > a {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 15px;
+  color: slategrey;
+  margin: 4px 10px;
+}
+
+.footer > select,
+.copyright {
+  border: none;
+  background-color: #f1f1f1;
+  color: slategrey;
+  margin-right: 15px;
+}
+
+a {
+  text-decoration: none;
+}
